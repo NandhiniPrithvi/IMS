@@ -1,0 +1,30 @@
+top logo
+sales - menu
+sales order
+sales bill
+purchase = menu
+purchase
+report - menu
+sales report 
+purchase report
+
+
+cretae product - 
+category
+mrp price selling price
+
+
+db master table
+
+purchase order
+purchase
+
+
+inventory
+
+new item 
+category,
+code,
+company,
+item name
+item price
