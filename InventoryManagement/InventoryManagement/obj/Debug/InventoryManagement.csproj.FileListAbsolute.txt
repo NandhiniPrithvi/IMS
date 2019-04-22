@@ -1,0 +1,14 @@
+F:\Inventory Management\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe.config
+F:\Inventory Management\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe
+F:\Inventory Management\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.pdb
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Dashboard.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.ProductDetails.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.main.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Properties.Resources.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csproj.GenerateResource.Cache
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.exe
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.pdb
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csprojResolveAssemblyReference.cache
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Company.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.PurchaseOrder.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Category.resources
