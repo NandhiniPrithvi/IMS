@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace InventoryManagement
 {
-    public partial class PurchaseOrder : Form
+    public partial class PurchaseOrder : Dashboard
     {
         public PurchaseOrder()
         {

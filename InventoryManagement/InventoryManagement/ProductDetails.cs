@@ -64,7 +64,7 @@ namespace InventoryManagement
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            
         }
         protected void ButtonAdd_Click(object sender, EventArgs e)
         {

@@ -12,3 +12,12 @@ F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\Invent
 F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Company.resources
 F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.PurchaseOrder.resources
 F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Category.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Item.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Vendor.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.POOrder.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.prodList.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.SupplierList.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Print.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\RdlCompile.cache
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\RdlCompile.compiled

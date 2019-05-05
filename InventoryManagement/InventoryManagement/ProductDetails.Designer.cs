@@ -42,6 +42,7 @@
             this.btnView = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.panel2.SuspendLayout();
             this.form2panel.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -229,5 +230,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn lastupdated;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
