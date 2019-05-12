@@ -21,3 +21,5 @@ F:\Inventory Management\InventoryManagement\InventoryManagement\bin\Debug\Micros
 F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Print.resources
 F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\RdlCompile.cache
 F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\RdlCompile.compiled
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.PrintUsingWndowsOptioncs.resources
+F:\Inventory Management\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.vbprint.resources

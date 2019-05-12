@@ -40,6 +40,7 @@ namespace InventoryManagement
             poorder.txtsuppliercode.Text = dr.Cells[2].Value.ToString();
             this.Close();
         }
+       
         private void getSuppliers()
         {
             SqlConnection conn = new SqlConnection(connectionString);

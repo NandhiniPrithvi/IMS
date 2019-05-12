@@ -113,16 +113,38 @@ namespace InventoryManagement
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
         {
-            txtinvoicedate.Text = monthCalendar1.SelectionRange.Start.ToShortTimeString();
+            txtinvoicedate.Text = monthCalendar1.SelectionRange.Start.ToShortDateString();
             monthCalendar1.Visible = false;
+            loadInvoiceNoBasedOnSupplierCode();
+        }
+        private void loadInvoiceNoBasedOnSupplierCode()
+        {
+            string invoiceno;
+            SqlConnection conn = new SqlConnection(connectionString);
+            string command = "select dbo.getInvoicebySupplier(@suppliercode,@invoicedate)";
+            SqlCommand sqlcommand = new SqlCommand(command, conn);
+            sqlcommand.CommandType = CommandType.Text;
+            sqlcommand.Parameters.Add("@invoicedate", SqlDbType.DateTime).Value = Convert.ToDateTime(txtinvoicedate.Text);
+            sqlcommand.Parameters.Add("@suppliercode", SqlDbType.VarChar).Value = txtsuppliercode.Text;
+            SqlDataAdapter dataadapter = new SqlDataAdapter(sqlcommand);
+            conn.Open();
+            invoiceno = sqlcommand.ExecuteScalar().ToString();
+            conn.Close();
+            if (invoiceno == "" || invoiceno == null)
+            {
+                txtinvoiceno.Text = getInvoiceNo();
+            }
+            else
+            {
+                txtinvoiceno.Text = invoiceno;
+            }
         }
 
         private void POOrder_Load(object sender, EventArgs e)
         {
             getPurchaseOrderList();
-            txtinvoiceno.Text = getInvoiceNo();
         }
-        private string getInvoiceNo()
+        public string getInvoiceNo()
         {
             string invoiceno;
             SqlConnection conn = new SqlConnection(connectionString);
@@ -168,8 +190,13 @@ namespace InventoryManagement
 
         private void btnprint_Click(object sender, EventArgs e)
         {
-            using (Print print = new Print(txtproductname.Text))
-            { print.ShowDialog(); }
+            //using (PrintUsingWndowsOptioncs print = new PrintUsingWndowsOptioncs())
+            //{
+            //    print.label3.Text = "Hi";
+            //    print.printmenthod() ; }
+            vbprint print = new vbprint();
+            print.setValueforfields("Supplier Name : Nandhini", "Supplier Code  : V1001", "Invoice No : IN1001", "Invoice Date : 21/05/2019");
+            print.ShowDialog();
         }
     }
 }

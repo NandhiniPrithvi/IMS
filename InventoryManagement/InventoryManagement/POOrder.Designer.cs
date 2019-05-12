@@ -98,14 +98,14 @@
             this.lblinvoiceno = new System.Windows.Forms.Label();
             this.lblinvoiceinfo = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.lblSubtotal = new System.Windows.Forms.Label();
-            this.lblcgst = new System.Windows.Forms.Label();
-            this.lblsgst = new System.Windows.Forms.Label();
-            this.lblgrndtotal = new System.Windows.Forms.Label();
-            this.txtsubtotal = new System.Windows.Forms.TextBox();
-            this.txtcgs = new System.Windows.Forms.TextBox();
-            this.txtgrandtotal = new System.Windows.Forms.TextBox();
             this.txtsgs = new System.Windows.Forms.TextBox();
+            this.txtgrandtotal = new System.Windows.Forms.TextBox();
+            this.txtcgs = new System.Windows.Forms.TextBox();
+            this.txtsubtotal = new System.Windows.Forms.TextBox();
+            this.lblgrndtotal = new System.Windows.Forms.Label();
+            this.lblsgst = new System.Windows.Forms.Label();
+            this.lblcgst = new System.Windows.Forms.Label();
+            this.lblSubtotal = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -695,7 +695,7 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(260, 5);
+            this.monthCalendar1.Location = new System.Drawing.Point(143, 0);
             this.monthCalendar1.MaxSelectionCount = 1;
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 8;
@@ -704,7 +704,7 @@
             // 
             // btncalendar
             // 
-            this.btncalendar.Location = new System.Drawing.Point(233, 40);
+            this.btncalendar.Location = new System.Drawing.Point(117, 42);
             this.btncalendar.Name = "btncalendar";
             this.btncalendar.Size = new System.Drawing.Size(25, 23);
             this.btncalendar.TabIndex = 7;
@@ -714,7 +714,7 @@
             // 
             // txtinvoicedate
             // 
-            this.txtinvoicedate.Location = new System.Drawing.Point(127, 42);
+            this.txtinvoicedate.Location = new System.Drawing.Point(11, 44);
             this.txtinvoicedate.Name = "txtinvoicedate";
             this.txtinvoicedate.Size = new System.Drawing.Size(100, 20);
             this.txtinvoicedate.TabIndex = 6;
@@ -722,7 +722,7 @@
             // lblinvoicedate
             // 
             this.lblinvoicedate.AutoSize = true;
-            this.lblinvoicedate.Location = new System.Drawing.Point(124, 29);
+            this.lblinvoicedate.Location = new System.Drawing.Point(8, 28);
             this.lblinvoicedate.Name = "lblinvoicedate";
             this.lblinvoicedate.Size = new System.Drawing.Size(68, 13);
             this.lblinvoicedate.TabIndex = 5;
@@ -730,7 +730,7 @@
             // 
             // txtinvoiceno
             // 
-            this.txtinvoiceno.Location = new System.Drawing.Point(3, 43);
+            this.txtinvoiceno.Location = new System.Drawing.Point(184, 45);
             this.txtinvoiceno.Name = "txtinvoiceno";
             this.txtinvoiceno.Size = new System.Drawing.Size(100, 20);
             this.txtinvoiceno.TabIndex = 4;
@@ -738,7 +738,7 @@
             // lblinvoiceno
             // 
             this.lblinvoiceno.AutoSize = true;
-            this.lblinvoiceno.Location = new System.Drawing.Point(3, 29);
+            this.lblinvoiceno.Location = new System.Drawing.Point(181, 28);
             this.lblinvoiceno.Name = "lblinvoiceno";
             this.lblinvoiceno.Size = new System.Drawing.Size(61, 13);
             this.lblinvoiceno.TabIndex = 2;
@@ -769,32 +769,33 @@
             this.panel8.Size = new System.Drawing.Size(423, 189);
             this.panel8.TabIndex = 3;
             // 
-            // lblSubtotal
+            // txtsgs
             // 
-            this.lblSubtotal.AutoSize = true;
-            this.lblSubtotal.Location = new System.Drawing.Point(42, 21);
-            this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(53, 13);
-            this.lblSubtotal.TabIndex = 0;
-            this.lblSubtotal.Text = "Sub Total";
+            this.txtsgs.Location = new System.Drawing.Point(131, 55);
+            this.txtsgs.Name = "txtsgs";
+            this.txtsgs.Size = new System.Drawing.Size(100, 20);
+            this.txtsgs.TabIndex = 8;
             // 
-            // lblcgst
+            // txtgrandtotal
             // 
-            this.lblcgst.AutoSize = true;
-            this.lblcgst.Location = new System.Drawing.Point(44, 106);
-            this.lblcgst.Name = "lblcgst";
-            this.lblcgst.Size = new System.Drawing.Size(36, 13);
-            this.lblcgst.TabIndex = 2;
-            this.lblcgst.Text = "CGST";
+            this.txtgrandtotal.Location = new System.Drawing.Point(131, 141);
+            this.txtgrandtotal.Name = "txtgrandtotal";
+            this.txtgrandtotal.Size = new System.Drawing.Size(100, 20);
+            this.txtgrandtotal.TabIndex = 7;
             // 
-            // lblsgst
+            // txtcgs
             // 
-            this.lblsgst.AutoSize = true;
-            this.lblsgst.Location = new System.Drawing.Point(44, 62);
-            this.lblsgst.Name = "lblsgst";
-            this.lblsgst.Size = new System.Drawing.Size(36, 13);
-            this.lblsgst.TabIndex = 3;
-            this.lblsgst.Text = "SGST";
+            this.txtcgs.Location = new System.Drawing.Point(131, 103);
+            this.txtcgs.Name = "txtcgs";
+            this.txtcgs.Size = new System.Drawing.Size(100, 20);
+            this.txtcgs.TabIndex = 6;
+            // 
+            // txtsubtotal
+            // 
+            this.txtsubtotal.Location = new System.Drawing.Point(131, 18);
+            this.txtsubtotal.Name = "txtsubtotal";
+            this.txtsubtotal.Size = new System.Drawing.Size(100, 20);
+            this.txtsubtotal.TabIndex = 5;
             // 
             // lblgrndtotal
             // 
@@ -805,33 +806,32 @@
             this.lblgrndtotal.TabIndex = 4;
             this.lblgrndtotal.Text = "Grand Total";
             // 
-            // txtsubtotal
+            // lblsgst
             // 
-            this.txtsubtotal.Location = new System.Drawing.Point(131, 18);
-            this.txtsubtotal.Name = "txtsubtotal";
-            this.txtsubtotal.Size = new System.Drawing.Size(100, 20);
-            this.txtsubtotal.TabIndex = 5;
+            this.lblsgst.AutoSize = true;
+            this.lblsgst.Location = new System.Drawing.Point(44, 62);
+            this.lblsgst.Name = "lblsgst";
+            this.lblsgst.Size = new System.Drawing.Size(36, 13);
+            this.lblsgst.TabIndex = 3;
+            this.lblsgst.Text = "SGST";
             // 
-            // txtcgs
+            // lblcgst
             // 
-            this.txtcgs.Location = new System.Drawing.Point(131, 103);
-            this.txtcgs.Name = "txtcgs";
-            this.txtcgs.Size = new System.Drawing.Size(100, 20);
-            this.txtcgs.TabIndex = 6;
+            this.lblcgst.AutoSize = true;
+            this.lblcgst.Location = new System.Drawing.Point(44, 106);
+            this.lblcgst.Name = "lblcgst";
+            this.lblcgst.Size = new System.Drawing.Size(36, 13);
+            this.lblcgst.TabIndex = 2;
+            this.lblcgst.Text = "CGST";
             // 
-            // txtgrandtotal
+            // lblSubtotal
             // 
-            this.txtgrandtotal.Location = new System.Drawing.Point(131, 141);
-            this.txtgrandtotal.Name = "txtgrandtotal";
-            this.txtgrandtotal.Size = new System.Drawing.Size(100, 20);
-            this.txtgrandtotal.TabIndex = 7;
-            // 
-            // txtsgs
-            // 
-            this.txtsgs.Location = new System.Drawing.Point(131, 55);
-            this.txtsgs.Name = "txtsgs";
-            this.txtsgs.Size = new System.Drawing.Size(100, 20);
-            this.txtsgs.TabIndex = 8;
+            this.lblSubtotal.AutoSize = true;
+            this.lblSubtotal.Location = new System.Drawing.Point(42, 21);
+            this.lblSubtotal.Name = "lblSubtotal";
+            this.lblSubtotal.Size = new System.Drawing.Size(53, 13);
+            this.lblSubtotal.TabIndex = 0;
+            this.lblSubtotal.Text = "Sub Total";
             // 
             // POOrder
             // 
